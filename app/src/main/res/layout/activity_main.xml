@@ -7,35 +7,34 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:padding="24dp"
     android:background="#FFFFFF"
     tools:context=".MainActivity">
+
     <ImageView
         android:src="@drawable/ss1it"
         android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        android:layout_height="100dp"
+        android:layout_marginBottom="32dp"/>
+
     <Button
         android:id="@+id/btnLogin"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:text="Login"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
+
     <Button
         android:id="@+id/btnRegister"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:text="Register"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
 
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Hello World!"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
+    <!-- 👇 New Button to Open EmployeeActivity -->
+    <Button
+        android:id="@+id/btnGoToEmployee"
+        android:text="Employee Management"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
 </LinearLayout>
